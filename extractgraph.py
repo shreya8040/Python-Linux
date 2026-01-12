@@ -1,17 +1,13 @@
 import psutil
 import plotext as plt
+import numpy as np
 t=[];
-r=10
-s=[]
+r=5
+s=[100,100,100,100,100]
 for x in range(r):
-	plt.cld()
-	plt.clt()
-	s.append(' ')
-	y=psutil.cpu_percent(interval=1)
+	
+	y=psutil.cpu_percent(interval =0.8)
 	t.append(y)
 	
-	z=plt.bar(s,t)
-	
-	plt.show()
-	
-
+z=plt.bar(t,s)
+plt.show()
