@@ -1,13 +1,8 @@
-from cpuperc import get_cpu_perc
-import time
-r=10
-t=[]
-for x in range(r):
-		y=get_cpu_perc()
-		t.append(y)
-		
-		print(t)
-		print("\033[A\033[A")
-print("\n")	
-
-
+from textout import t
+import plotext as plt
+l=len(t)
+v=[l]
+v=t
+s = [100,100,100,100,100,100,100,100]
+z= plt.bar(v,s)
+plt.show()
