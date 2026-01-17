@@ -13,6 +13,3 @@ for x in range(r):
 print(t)
 		
 	
-	
-
-
