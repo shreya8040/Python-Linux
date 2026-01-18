@@ -13,3 +13,9 @@ for x in range(r):
 print(t)
 		
 	
+<<<<<<< HEAD
+=======
+	
+
+
+>>>>>>> b198608 (update)
