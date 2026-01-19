@@ -1,5 +1,6 @@
 from cpuperc import get_cpu_perc
 from memoryuse import get_mem_usage
+import termcharts
 import plotext as plt
 import time
 
@@ -7,6 +8,7 @@ t=[]
 m=get_mem_usage()
 print("Select the statistic to be displayed:\n1.CPU Usage for a window of time\n2.Memory Usage\n")
 choice =int(input("Choice: "))
+
 if choice==1:
 	r=int(input("\nEnter the time for window in seconds: "))
 	print("\nLoading...")
@@ -27,7 +29,7 @@ if choice==1:
 		start=max(0,scroll_index-max_points)
 		end = scroll_index
 		if len(liveuse)>max_points:
-			liveuse.pop(0)
+			 liveuse.pop(0)
 		v=list(range(start,end))
 		s=[100]*len(t)
 		plt.clt()
@@ -38,8 +40,16 @@ if choice==1:
 		time.sleep(1)
 
 elif choice==2:
-	print("\n")
-	print(m)
+	cached=m.cached+m.buffers
+	used = m.used-(m.cached+m.buffers)
+	free = m.free
+	values={
+		"used":used,
+		"cache":cached,
+		"free":free
+		}
+	piechart=termcharts.pie(values,title = "Memory statistics")
+	print(piechart)
 	print("\n")
 
 else:
