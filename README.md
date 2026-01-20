@@ -17,9 +17,17 @@ And to better my understanding of Linux_
 
 
 
+[Screencast from 2026-01-20 18-36-00.webm](https://github.com/user-attachments/assets/3555a941-6bc4-46d5-93ad-a23561007875)
 
 
-<img width="733" height="422" alt="{EA44D5E8-1C94-4B4B-9C4E-EA8A210DB950}" src="https://github.com/user-attachments/assets/a8774671-6159-47f3-86f0-4495a6790ee8" />
+
+<img width="445" height="301" alt="Screenshot from 2026-01-20 18-38-49" src="https://github.com/user-attachments/assets/af5b82ba-884a-48b9-b5e6-b4aeebf84a87" />
+
+
+
+
+
+
 
 
 
