@@ -12,7 +12,8 @@ And to better my understanding of Linux_
 
 ● Got a better understanding of working on the terminal than previously.
   > The one thing that was different from how I expected the graph to look is that the bars are much shorter since Linux is running on Virtualbox and the CPU Usage is limited thereby making the usage values small.
-  [Plotext](https://github.com/piccolomo/plotext/blob/master/readme/bar.md)   [Term-Piechart](https://github.com/va-h/term-piechart)
+
+ > [Plotext](https://github.com/piccolomo/plotext/blob/master/readme/bar.md)   [Term-Piechart](https://github.com/va-h/term-piechart)
 
 `Samples:`
 
