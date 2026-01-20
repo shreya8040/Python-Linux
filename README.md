@@ -17,7 +17,8 @@ And to better my understanding of Linux_
 
 
 
-[Screencast from 2026-01-20 18-36-00.webm](https://github.com/user-attachments/assets/3555a941-6bc4-46d5-93ad-a23561007875)
+![Screencastfrom2026-01-2018-36-00online-video-cutter com-ezgif com-optimize](https://github.com/user-attachments/assets/31cce4e6-aab5-4c86-ad3f-2185ed4f0a31)
+
 
 
 
