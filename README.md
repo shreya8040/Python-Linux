@@ -8,10 +8,11 @@ And to better my understanding of Linux_
 
 ● Used Python in Linux- quite different from how I used Python till now in Jupyter and Colab.
 
-● Made use of the Open Source library 'plotext' to plot the graphs and display on the terminal
+● Made use of the Open Source library 'plotext' to plot the bar graph for CPU usage and 'term-piechart' for memory usage statistics in the form of a pie chart and display on the terminal
 
 ● Got a better understanding of working on the terminal than previously.
   > The one thing that was different from how I expected the graph to look is that the bars are much shorter since Linux is running on Virtualbox and the CPU Usage is limited thereby making the usage values small.
+  [Plotext](https://github.com/piccolomo/plotext/blob/master/readme/bar.md)   [Term-Piechart](https://github.com/va-h/term-piechart)
 
 `Samples:`
 
