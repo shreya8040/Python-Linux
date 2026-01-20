@@ -11,7 +11,7 @@ And to better my understanding of Linux_
 ● Made use of the Open Source library 'plotext' to plot the graphs and display on the terminal
 
 ● Got a better understanding of working on the terminal than previously.
-  > The one thing that was different from how I expected the graph to look is that the bars are much shorter since Linux is running on virualbox and the CPU Usage is limited thereby making the usage values small.
+  > The one thing that was different from how I expected the graph to look is that the bars are much shorter since Linux is running on Virtualbox and the CPU Usage is limited thereby making the usage values small.
 
 `Samples:`
 
