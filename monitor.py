@@ -1,6 +1,6 @@
 from cpuperc import get_cpu_perc
 from memoryuse import get_mem_usage
-import termcharts
+from term_piechart import Pie
 import plotext as plt
 import time
 
@@ -34,21 +34,22 @@ if choice==1:
 		s=[100]*len(t)
 		plt.clt()
 		plt.cld()
-		plt.bar(v,liveuse, color = 'cyan')
 		plt.plot(v,s,color= 'black')
+		plt.bar(v,liveuse, color = 'cyan')
+		
 		plt.show()
 		time.sleep(1)
 
 elif choice==2:
 	cached=m.cached+m.buffers
-	used = m.used-(m.cached+m.buffers)
+	used = m.used
 	free = m.free
-	values={
-		"used":used,
-		"cache":cached,
-		"free":free
-		}
-	piechart=termcharts.pie(values,title = "Memory statistics")
+	values=[
+		{"name":"used","value":used,"color":"cyan"},
+		{"name":"cache","value":cached,"color":"blue"},
+		{"name":"free","value":free,"color":"green"}
+		]
+	piechart=Pie(values,radius=5)
 	print(piechart)
 	print("\n")
 
