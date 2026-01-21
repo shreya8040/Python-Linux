@@ -15,11 +15,7 @@ And to better my understanding of Linux_
  > 
  > `Libraries used:`
 > 
-> [Plotext](https://github.com/piccolomo/plotext/blob/master/readme/bar.md)
-> 
-> [Term-Piechart](https://github.com/va-h/term-piechart)
-> 
-> [Psutil](https://github.com/giampaolo/psutil)
+> [Plotext](https://github.com/piccolomo/plotext/blob/master/readme/bar.md) ,  [Term-Piechart](https://github.com/va-h/term-piechart) ,  [Psutil](https://github.com/giampaolo/psutil)
 
 `Samples:`
 
