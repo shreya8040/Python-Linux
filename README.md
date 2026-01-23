@@ -1,4 +1,4 @@
-**Project type**: `Personal`
+**Project type**: `Personal`                                                                                                                                                                                > `Monthly Project - Jan 26`
 
 
 **Goal**:
