@@ -1,4 +1,4 @@
-**Project type**: `Personal`                                                                                                                                                                                > Monthly Project - Jan 26
+**Project type**: `Personal`                                                                                                                                                                                
 
 
 **Goal**:
@@ -27,6 +27,10 @@ And to better my understanding of Linux_
 
 
 <img width="445" height="301" alt="Screenshot from 2026-01-20 18-38-49" src="https://github.com/user-attachments/assets/af5b82ba-884a-48b9-b5e6-b4aeebf84a87" />
+
+
+
+> Monthly Project - Jan 26
 
 
 
